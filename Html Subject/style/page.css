@@ -1,0 +1,206 @@
+
+
+nav {
+
+width: 100%;
+height: 4rem;
+background-color: black;
+position: fixed;
+top:  -250px;
+z-index: 999;
+transition: 500ms;
+}
+
+nav .n-left {
+
+width: 48%;
+height: 100%;
+float: left
+}
+
+nav .n-left a, nav .n-right a {
+
+font-size: 1.6rem;
+color: white;
+position: relative;
+margin-right: 1.3rem;
+left: 1rem;
+top: 0.75rem
+}
+
+nav .n-right {
+
+width: auto;
+height: 100%;
+float: right;
+
+}
+
+nav .n-right a {
+left: 0;
+}
+
+nav .n-right a:hover {
+color: red
+}
+
+
+header {
+
+width: 100%;
+height: 38rem;
+background-image: url("img/วัด2.jpg");
+background-position: center;
+filter: blur(0.5px)
+}
+
+.content {
+
+width: 100%;
+height: auto;
+
+
+}
+
+.content section {
+
+width: 100%;
+height: 48rem;
+display: flex;
+padding: 2rem;
+padding-right: 0;
+padding-left: 0;
+}
+
+.content section .img-content {
+
+width: 35%;
+height: 80%;
+position: relative;
+left: 2rem;
+top: 5rem;
+filter: drop-shadow(1rem 1rem 1rem black)
+}
+
+.content section .img-content img {
+
+width: 100%;
+height: 100%;
+border-radius: 2rem;
+float: left;
+transition: 500ms;
+
+}
+
+.content section .img-content img:hover {
+
+transform: scale(1.05)
+}
+
+
+.content section .text-content {
+
+width: 55%;
+height: 80%;
+float: right;
+display: block;
+position: relative;
+left: 8rem;
+top: 5rem;
+
+}
+
+.content section .text-content h1 {
+
+color: black;
+font-size: 2rem;
+display: block;
+text-align: center;
+
+}
+
+
+.content section .text-content span {
+
+color: black;
+font-size: 1.7rem;
+
+}
+
+.no-dec a {
+text-decoration: none
+}
+
+.t-left span {
+text-align: left
+}
+
+footer {
+
+width: 100%;
+height: 12rem;
+background-color: black;
+
+}
+
+footer .f-left, footer .f-right {
+
+width: 50%;
+height: 100%;
+display: block
+}
+
+footer .f-left {
+float: left;
+}
+
+.text-box {
+
+width: 80%;
+height: 100%;
+display: block;
+margin: auto;
+}
+
+.text-box h1 {
+
+color: white;
+font-size: 2rem;
+display: block;
+position: relative;
+top: 1rem;
+text-align: center;
+}
+
+.text-box a, span {
+
+font-size: 1.7rem;
+color: white;
+display: block;
+position: relative;
+top: 2rem;
+text-align: center;
+margin-bottom: 1rem;
+}
+
+footer .f-right {
+float: left;
+}
+
+
+@media only screen and (max-width: 500px) {
+
+html, body {
+
+width: auto;
+height: auto
+
+ }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+
+
+}

@@ -1,0 +1,101 @@
+* {
+
+padding: 0;
+margin: 0;
+
+}
+
+html, body {
+
+width: 100%;
+height: auto;
+
+}
+
+
+.main-content {
+
+width: 100%;
+height: auto;
+display: flex;
+padding: 3rem;
+flex-wrap: wrap;
+}
+
+.main-content a, .main-content .n-h {
+
+width: 21%;
+height: 28rem;
+background: black;
+border-radius: 2rem;
+margin-left: 5.5rem;
+margin-right: 6rem;
+margin-bottom: 6rem;
+transition: 500ms;
+padding: 0.5rem;
+background-color: black;
+opacity: 0.9
+}
+
+.main-content a:hover {
+ transform: scale(1.075)
+}
+
+.main-content .n-h h1 {
+
+color: white;
+font-size: 1.7rem;
+display: block;
+text-align: center;
+position: relative;
+margin-top: 1rem;
+
+}
+
+
+
+.main-content a .main-img {
+
+width: 100%;
+height: 50%;
+
+}
+.main-content a img {
+
+width: 100%;
+height: 100%;
+border-top-left-radius: 2rem;
+border-top-right-radius: 2rem;
+
+}
+
+.main-content a .main-text {
+
+width: 100%;
+height: 50%;
+display: block;
+
+}
+
+.main-content a .main-text h1 {
+
+font-size: 1.7rem;
+color: white;
+display: block;
+text-align: center;
+position: relative;
+top: 3%;
+
+}
+.main-content a .main-text span {
+
+color: white;
+font-size: 1.1rem;
+
+}
+
+
+
+  
+
+
